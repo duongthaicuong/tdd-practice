@@ -19,7 +19,7 @@ describe('useSum', () => {
     const {result} = renderHook(() => useSum())
     act(() => {
       result.current.add(10)
-    }
+    })
     act(() => {
       result.current.add(20)
     })
